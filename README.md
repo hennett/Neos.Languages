@@ -53,7 +53,11 @@ TYPO3:
 CLI
 ---
 `./flow flow:cache:flush -f`
+
 `./flow site:import --package-key Key.YourSite`
-`~mysqldump nodedimensions~`
+
+`~mysqldump typo3_typo3cr_domain_model_nodedimension~`
+
 `./flow node:migrate --version 20140516221523`
+
 `~import mysqldump~`
