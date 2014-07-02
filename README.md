@@ -54,7 +54,7 @@ CLI
 ---
 `./flow flow:cache:flush -f`
 
-`./flow site:import --package-key Key.YourSite`
+`./flow site:import --package-key TYPO3.NeosDemoTypo3Org` *(optional step)*
 
 `~mysqldump typo3_typo3cr_domain_model_nodedimension~`
 
