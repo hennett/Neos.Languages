@@ -1,0 +1,8 @@
+# TYPO3.Neos:LanguageMenu provides basic language menu rendering
+#
+prototype(TYPO3.Neos:LanguageMenu) < prototype(TYPO3.TypoScript:Template) {
+    @class = 'TYPO3\\Neos\\TypoScript\\LanguageMenuImplementation'
+    templatePath = 'resource://TYPO3.Neos/Private/Templates/TypoScriptObjects/LanguageMenu.html'
+    node = ${node}
+    items = ${this.items}
+}
