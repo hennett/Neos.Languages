@@ -6,16 +6,20 @@ A simple "plugin" with detailed instructions on how to activate and use language
 Usage
 =====
 In order to have the language menu switcher available in our site, we have to create in `Root.ts2`
+
 `languageMenu = TYPO3.Neos:LanguageMenu`
 
 and add it in our template file
+
 `{languageMenu -> f:format.raw()}`
 	
 	
 Objects.yaml
 ------------
-`TYPO3\Neos\Routing\FrontendNodeRoutePartHandlerInterface:`
-` className: TYPO3\Neos\Routing\LocalizedFrontendNodeRoutePartHandler`
+```yaml
+TYPO3\Neos\Routing\FrontendNodeRoutePartHandlerInterface:
+  className: TYPO3\Neos\Routing\LocalizedFrontendNodeRoutePartHandler
+```
   
 Settings.yaml
 -------------
