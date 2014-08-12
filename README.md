@@ -67,3 +67,9 @@ CLI
 `./flow node:migrate --version 20140516221523`
 
 `~import mysqldump~`
+
+Note
+====
+You have to change the `package` property of `line 6` in `LnaguageMenu.html` to your package name.
+
+Same goes for the `LocaleAspect`.php and its path.
