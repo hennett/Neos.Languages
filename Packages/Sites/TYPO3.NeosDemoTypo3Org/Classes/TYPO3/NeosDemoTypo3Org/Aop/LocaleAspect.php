@@ -2,7 +2,7 @@
 namespace TYPO3\NeosDemoTypo3Org\Aop;
 
 /* *
- * This script belongs to the MyCopnay.MyPackage.
+ * This script belongs to the MyCompany.MyPackage.
  * */
 
 use TYPO3\Flow\Annotations as Flow;
