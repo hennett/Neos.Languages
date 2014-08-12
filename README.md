@@ -72,4 +72,4 @@ Note
 ====
 You have to change the `package` property of `line 6` in `LnaguageMenu.html` to your package name.
 
-Same goes for the `LocaleAspect`.php and its path.
+Same goes for the `LocaleAspect`.php; change its path and namespace.
