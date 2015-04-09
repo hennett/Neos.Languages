@@ -1,3 +1,9 @@
+**DEPRECATED**
+==========
+
+This package is no longer maintained, developed or supported by any means. The latest version of Neos supports languages out of the box.
+=========================
+
 Neos.Languages
 ==============
 
